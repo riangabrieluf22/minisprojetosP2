@@ -5,20 +5,20 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         // Capítulo 1
-        String capitulo1 = "Você acorda em uma ilha desconhecida, deitado em uma praia bela. À sua frente, você vê uma enorme floresta e uma caverna à direita.";
+        String capitulo1 = "Você acorda em uma ilha desconhecida, deitado em uma praia paradisiaca. À sua frente, você vê uma enorme floresta e uma caverna à direita.";
         String escolha1Floresta = "Você decide explorar a floresta.";
         String escolha1Caverna = "Você decide entrar na caverna.";
 
         // Mostrar capítulo 1
         System.out.println(capitulo1);
         System.out.println("Escolha o que fazer:");
-        System.out.println("1. Explorar a floresta.");
+        System.out.println("1. Explorar a floresta a dentro.");
         System.out.println("2. Entrar na caverna.");
 
         // Capturar escolha do usuário
         String escolhaCapitulo1 = scanner.nextLine();
 
-        // Verificar escolha do usuário
+        // Verificar escolha do usuáriop
         if (escolhaCapitulo1.equals("1")) {
             System.out.println(escolha1Floresta);
             // Capítulo 2A
