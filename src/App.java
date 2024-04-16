@@ -12,8 +12,8 @@ public class App {
         // Mostrar capítulo 1
         System.out.println(capitulo1);
         System.out.println("Escolha o que fazer:");
-        System.out.println("1. Explorar a floresta a dentro.");
-        System.out.println("2. Entrar na caverna.");
+        System.out.println("1. Explorar a floresta.");
+        System.out.println("2. Entrar na caverna a dentro.");
 
         // Capturar escolha do usuário
         String escolhaCapitulo1 = scanner.nextLine();
