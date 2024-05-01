@@ -27,7 +27,6 @@ public class Capitulo {
         System.out.println("Escolha 2: " + escolha2);
         System.out.println("-----------------------------------");
 
-        // Alterar energia do personagem
         personagem.setEnergia(alteracaoEnergia);
     }
 
