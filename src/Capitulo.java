@@ -21,7 +21,7 @@ public class Capitulo {
     }
 
     public void mostrar() {
-        System.out.println("Nome do Capítulo: " + nome);
+        System.out.println("Nome do Capítulo...: " + nome);
         System.out.println("Texto do Capítulo: " + texto);
         System.out.println("Escolha 1: " + escolha1);
         System.out.println("Escolha 2: " + escolha2);
@@ -40,7 +40,7 @@ public class Capitulo {
                 escolha = Integer.parseInt(input);
                 break;
             } else {
-                System.out.println("Escolha inválida. Por favor, escolha 1 ou 2.");
+                System.out.println("Escolha inválida. Por favor, escolha 1 ou 2 e tente novamente.");
             }
         } while (true);
         return escolha;
